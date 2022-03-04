@@ -1,0 +1,15 @@
+Ejercicios Imperativos 2
+------------------------
+
+Implemente los siguientes ejercicios:
+
+
+- Termine el ejercicio de punteros en el lenguaje C desarrollado en clase de manera que permita insertar elementos al arrreglo de enteros usando punteros, pero en cualquier posición que se desee a partir de una posición brindada por parámetro. 
+
+- A partir de la explicación dada en clase sobre arreglos de personas e identificadores únicos de cada persona, escriba un programa en Golang que permita imprimir los nombres de las tres personas más similares a la identificación de muestrea que se envié de parámetro.
+
+La implementación debe contener una función que realice el cálculo de los más parecidos a la muestra y deve devolver los nombres de las tres personas. 
+
+La forma en que se represente la "identificación" de cada persona queda a criterio del programador(a), sin embargo se sugiere un arreglo de enteros para ser concordante con la explicación hecha en clase.
+
+La cantidad de personas leídas/agregadas así como de la identificación para cada persona, queda a criterio del programador(a) pero se sugiere que sean suficientes para el problema.
