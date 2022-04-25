@@ -1,0 +1,38 @@
+1) Construya una funcion que se llame vector-inverso. Esta función recibe dos argumentos: un numero N y un vector con valores entre 0 y N. Debe producir un vector donde cada entrada ha sido restada al valor de N. Ejemplos:
+
+>(vector-inverso 10 '())
+()
+
+>(vector-inverso 10 '(1 2 3))
+(9 8 7)
+
+>(vector-inverso 10 '(3 9 7 0))
+(7 1 3 10)
+
+>(vector-inverso 20 '(3 9 7 0))
+(17 11 13 20)
+
+2) Construya la funcion recursiva primer-numero. Esta funcion recibe una lista y devuelve el primer elemento de esa lista que es un número. Debe retornar el número si lo encuentra, sino retornar null. Ejemplos:
+
+> (primer-numero '(a g y 5 7 w v 6))
+5
+
+> (primer-numero '(a g y w v))
+()
+
+3) Construya la funcion filtrar. Esta funcion recibe una lista y retorna otra lista con los mismos elementos de la primera, pero eliminando los elementos repetidos. Ejemplos:
+
+> (filtrar '())
+()
+
+> (filtrar '(1 3 5 7 8 8 8 9 2 3))
+(1 5 7 8 9 2 3)
+
+> (filtrar '(a b c d))
+(a b c d)
+
+4) Realizar ejercicio para rotar una lista de elementos n posiciones a la izquierda o la derecha según sea indicado con un parámetro. 
+
+5) Realizar una función que obtenga el n-esimo elemento de una lista, pero utilizando solamente map (sin recursión). Tip: Utilizar lista de índices.
+
+6) Construya una función que se llame sub-conjunto? Esta función recibe dos argumentos y debe producir un valor #t cuando el primer argumento es subconjunto del segundo y #f en caso contrario
