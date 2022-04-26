@@ -34,5 +34,3 @@
 4) Realizar ejercicio para rotar una lista de elementos n posiciones a la izquierda o la derecha según sea indicado con un parámetro. 
 
 5) Realizar una función que obtenga el n-esimo elemento de una lista, pero utilizando solamente map (sin recursión). Tip: Utilizar lista de índices.
-
-6) Construya una función que se llame sub-conjunto? Esta función recibe dos argumentos y debe producir un valor #t cuando el primer argumento es subconjunto del segundo y #f en caso contrario
