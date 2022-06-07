@@ -1,3 +1,4 @@
+#lang racket
 (define (primer-numero lista)
   (cond((null? lista)
         null)
